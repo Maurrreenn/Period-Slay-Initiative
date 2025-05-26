@@ -1,0 +1,63 @@
+ @media (max-width: 978px) {
+
+  nav img{
+    width: 30%;
+  }
+
+.topnav a{
+  display: none;
+}
+
+.topnav .icon {
+  display: block;
+}
+
+.topnav.responsive {position: relative;
+  width: 100%;
+}
+
+.topnav.responsive a.icon{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 20%;
+    background-color: aqua;
+  }
+  .topnav.responsive a {
+    display: block;
+    width: 80%;
+    text-align: right;
+    background-color: green;
+  }
+
+ 
+ /* impacts */
+
+   .write_up h1 {
+                font-size: 2rem;
+            }
+
+            .write_up p {
+                font-size: 1rem;
+            }
+
+            .projects-container {
+                grid-template-columns: 1fr;
+            }
+/* footer */
+ .footer-container {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+            .newsletter form {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .newsletter input[type="email"] {
+                width: 100%;
+                max-width: 300px;
+            }
+        }

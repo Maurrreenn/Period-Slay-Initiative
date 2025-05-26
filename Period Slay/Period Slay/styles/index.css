@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: 'Spartan', sans-serif;
+    //background-image: url(../Image/poster2.jpg);
+  }
+
+  header {
+	  display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px;
+    background-color: white;
+    box-shadow: 2px 5px 15px rgba(192, 199, 127, 0.06);
+    z-index: 9;
+    top: 0;
+    left: 0;
+    position: sticky;
+  }
+  
+  navbar {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
+
+  navbar img{
+  position: relative;
+	align-content: flex-start;
+	padding-right: 10px 10px;
+
+  }
+
+  h3 {
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  h2 {
+    text-align: center;
+    font-weight: bold;
+  }
+
+  form {
+    background-color: rgb(131, 24, 24);
+    color: black;
+    justify-self: center;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 300px;
+    margin-bottom: 200px;
+    width: 350px;
+    height: 470px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  fieldset {
+    border: 2px solid rgb(148, 49, 49);
+    text-align: start;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    margin: 30px 45px;
+    padding-bottom: 80px;
+    padding-left: 25px;
+    padding-right: 30px;
+  }
+
+  fieldset label {
+    display: inline-block;
+  }
+
+  fieldset input  {
+   margin-top: 2px;
+   margin-bottom: 15px;
+   padding: 10px 10px;
+   border: none;
+   border-radius: 5px;
+
+  }
+
+   button {
+    margin-top: 2px;
+    padding: 10px 50px;
+    border-radius: 15px;
+    background-color: rgba(238, 234, 17, 0.952);
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-right: 25px;
+   }
+
+  button a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+  }
